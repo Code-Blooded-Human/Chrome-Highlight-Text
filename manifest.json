@@ -1,0 +1,35 @@
+{
+    "name": "Highligher",
+    "description": "Highlight websites, share citations and organise your research.",
+    "version": "1",
+    "manifest_version": 2,
+    "permissions": ["contextMenus","activeTab"],
+    
+    
+    "browser_action": {
+        "default_icon": "assets/img/icon.png",
+        "default_popup": "popup.html"
+    },
+    
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "content_scripts":[{
+        "matches": ["<all_urls>"],
+        "js":["assets/js/jquery-3.5.1.js","content.js"],
+        "css":["assets/css/content.css"]
+    }],
+    "web_accessible_resources" : [
+        "assets/img/*.png"
+        ],
+    "commands": {
+        "AltR":{
+            "suggested_key":{
+                "default":"Alt+R"
+            },
+            "description":"Shortcut for ALT + R"
+        }
+       
+    }
+}
+

@@ -1,0 +1,82 @@
+"AltG":{
+    "suggested_key":{
+        "default":"Alt+G"
+    },
+    "description":"Shortcut for ALT + G"
+},
+"AltB":{
+    "suggested_key":
+    {
+        "default":"Alt+B"
+    },
+    "description":"Shortcut for ALT + B"
+},
+"AltL":{
+    "suggested_key":
+    {
+        "default":"Alt+L"
+    },
+    "description":"Shortcut for ALT + L"
+},
+"AltQ":{
+    "suggested_key":
+    {
+        "default":"Alt+Q"
+    },
+    "description":"Shortcut for ALT+Q"
+},
+"AltW":{
+    "suggested_key":
+    {
+        "defualt":"Alt+W"
+    },
+    "description":"Shortcut for ALT+W"
+},
+"AltE":{
+    "suggested_key":
+    {
+        "defualt":"Alt+E"
+    },
+    "description":"Shortcut for ALT+E"
+},
+"AltA":{
+    "suggested_key":
+    {
+        "defualt":"Alt+A"
+    },
+    "description":"Shortcut for ALT+A"
+},
+"AltS":{
+    "suggested_key":
+    {
+        "default":"Alt+S"
+    },
+    "description":"Shortcut for ALT+S"
+},
+"AltD":{
+    "suggested_key":
+    {
+        "default":"Alt+D"
+    },
+    "description":"Shortcut for ALT+D"
+}
+
+
+
+
+
+
+
+
+
+
+.highlighter-underline-green
+{
+    border-bottom: 4px solid #AED581;
+    display: inline;
+    line-height: 0.85;  
+}
+.highlighter-green-underline:hover
+{
+    border-bottom: 4px solid #388E3C;
+}
